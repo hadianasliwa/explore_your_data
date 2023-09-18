@@ -55,7 +55,7 @@ if radio=='Explore':
         st.write('please go to Upload and upload your csv and come back :)')
 ###################### End Explore  ######################
 
-st.cache_data
+
 def convert_df(df):
    return df.to_csv(index=False).encode('utf-8')
 
